@@ -14,6 +14,7 @@ let hash = crypto.pbkdf2Sync(password, salt,
 password = hash
 
 module.exports = {
+	salt,
 	username,
 	password
 }
