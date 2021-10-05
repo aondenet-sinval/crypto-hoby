@@ -1,0 +1,16 @@
+{
+  "name": "crypto-hoby",
+  "version": "1.0.0",
+  "description": "Desenvolvimento simples do script de cadastro de login com crypto.",
+  "main": "insertLoginUser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node insertLoginUser.js"
+  },
+  "author": "Sinval Gomes",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  }
+}
