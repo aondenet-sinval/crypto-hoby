@@ -1,0 +1,7 @@
+//Script para alterar o valor do salt tornando aleatório o valor cadastrado no banco:
+//Definindo uma letra para cada númenro gerado
+const crypto =require('crypto')
+
+let token = crypto.randomBytes(6).toString('hex');
+
+console.log(token);
